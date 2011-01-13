@@ -9,14 +9,18 @@
 /* Begin PBXBuildFile section */
 		CD8B60E912DE81D700DE5E90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B60E812DE81D700DE5E90 /* Foundation.framework */; };
 		CD8B60EC12DE81D700DE5E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B60EB12DE81D700DE5E90 /* main.m */; };
+		CD8B60F512DE87DF00DE5E90 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B60F412DE87DF00DE5E90 /* QuartzCore.framework */; };
+		CD8B60F712DE885C00DE5E90 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B60F612DE885C00DE5E90 /* AppKit.framework */; };
+		CD8B60FC12DE8A1F00DE5E90 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B60F912DE8A1F00DE5E90 /* IconFamily.m */; };
+		CD8B60FD12DE8A1F00DE5E90 /* NSString+CarbonFSRefCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B60FB12DE8A1F00DE5E90 /* NSString+CarbonFSRefCreation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CD8B60E212DE81D700DE5E90 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -28,7 +32,13 @@
 		CD8B60E812DE81D700DE5E90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD8B60EA12DE81D700DE5E90 /* gaysailor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gaysailor.1; sourceTree = "<group>"; };
 		CD8B60EB12DE81D700DE5E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD8B60EE12DE81D700DE5E90 /* gaysailor-Prefix.pch */ = {isa = PBXFileReference; path = "gaysailor-Prefix.pch"; sourceTree = "<group>"; };
+		CD8B60EE12DE81D700DE5E90 /* gaysailor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gaysailor-Prefix.pch"; sourceTree = "<group>"; };
+		CD8B60F412DE87DF00DE5E90 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD8B60F612DE885C00DE5E90 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD8B60F812DE8A1F00DE5E90 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconFamily.h; sourceTree = "<group>"; };
+		CD8B60F912DE8A1F00DE5E90 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconFamily.m; sourceTree = "<group>"; };
+		CD8B60FA12DE8A1F00DE5E90 /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CarbonFSRefCreation.h"; sourceTree = "<group>"; };
+		CD8B60FB12DE8A1F00DE5E90 /* NSString+CarbonFSRefCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CarbonFSRefCreation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8B60F712DE885C00DE5E90 /* AppKit.framework in Frameworks */,
+				CD8B60F512DE87DF00DE5E90 /* QuartzCore.framework in Frameworks */,
 				CD8B60E912DE81D700DE5E90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +69,10 @@
 		CD8B60DE12DE81D700DE5E90 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CD8B60F812DE8A1F00DE5E90 /* IconFamily.h */,
+				CD8B60F912DE8A1F00DE5E90 /* IconFamily.m */,
+				CD8B60FA12DE8A1F00DE5E90 /* NSString+CarbonFSRefCreation.h */,
+				CD8B60FB12DE8A1F00DE5E90 /* NSString+CarbonFSRefCreation.m */,
 				CD8B60EB12DE81D700DE5E90 /* main.m */,
 			);
 			path = Source;
@@ -81,6 +97,8 @@
 		CD8B60E712DE81D700DE5E90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD8B60F612DE885C00DE5E90 /* AppKit.framework */,
+				CD8B60F412DE87DF00DE5E90 /* QuartzCore.framework */,
 				CD8B60E812DE81D700DE5E90 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -142,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD8B60EC12DE81D700DE5E90 /* main.m in Sources */,
+				CD8B60FC12DE8A1F00DE5E90 /* IconFamily.m in Sources */,
+				CD8B60FD12DE8A1F00DE5E90 /* NSString+CarbonFSRefCreation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8B60E912DE81D700DE5E90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B60E812DE81D700DE5E90 /* Foundation.framework */; };
+		CD8B60EC12DE81D700DE5E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B60EB12DE81D700DE5E90 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD8B60E212DE81D700DE5E90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD8B60E412DE81D700DE5E90 /* gaysailor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gaysailor; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8B60E812DE81D700DE5E90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD8B60EA12DE81D700DE5E90 /* gaysailor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gaysailor.1; sourceTree = "<group>"; };
+		CD8B60EB12DE81D700DE5E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8B60EE12DE81D700DE5E90 /* gaysailor-Prefix.pch */ = {isa = PBXFileReference; path = "gaysailor-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8B60E112DE81D700DE5E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8B60E912DE81D700DE5E90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8B60D712DE81D700DE5E90 = {
+			isa = PBXGroup;
+			children = (
+				CD8B60DE12DE81D700DE5E90 /* Source */,
+				CD8B60DF12DE81D700DE5E90 /* Documentation */,
+				CD8B60E512DE81D700DE5E90 /* Products */,
+				CD8B60E712DE81D700DE5E90 /* Frameworks */,
+				CD8B60ED12DE81D700DE5E90 /* Other Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8B60DE12DE81D700DE5E90 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B60EB12DE81D700DE5E90 /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CD8B60DF12DE81D700DE5E90 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B60EA12DE81D700DE5E90 /* gaysailor.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		CD8B60E512DE81D700DE5E90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B60E412DE81D700DE5E90 /* gaysailor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8B60E712DE81D700DE5E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B60E812DE81D700DE5E90 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD8B60ED12DE81D700DE5E90 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B60EE12DE81D700DE5E90 /* gaysailor-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8B60E312DE81D700DE5E90 /* gaysailor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8B60F112DE81D700DE5E90 /* Build configuration list for PBXNativeTarget "gaysailor" */;
+			buildPhases = (
+				CD8B60E012DE81D700DE5E90 /* Sources */,
+				CD8B60E112DE81D700DE5E90 /* Frameworks */,
+				CD8B60E212DE81D700DE5E90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gaysailor;
+			productName = gaysailor;
+			productReference = CD8B60E412DE81D700DE5E90 /* gaysailor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8B60D912DE81D700DE5E90 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CD8B60DC12DE81D700DE5E90 /* Build configuration list for PBXProject "gaysailor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD8B60D712DE81D700DE5E90;
+			productRefGroup = CD8B60E512DE81D700DE5E90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8B60E312DE81D700DE5E90 /* gaysailor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8B60E012DE81D700DE5E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8B60EC12DE81D700DE5E90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD8B60EF12DE81D700DE5E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD8B60F012DE81D700DE5E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD8B60F212DE81D700DE5E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gaysailor-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD8B60F312DE81D700DE5E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gaysailor-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8B60DC12DE81D700DE5E90 /* Build configuration list for PBXProject "gaysailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8B60EF12DE81D700DE5E90 /* Debug */,
+				CD8B60F012DE81D700DE5E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8B60F112DE81D700DE5E90 /* Build configuration list for PBXNativeTarget "gaysailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8B60F212DE81D700DE5E90 /* Debug */,
+				CD8B60F312DE81D700DE5E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8B60D912DE81D700DE5E90 /* Project object */;
+}
